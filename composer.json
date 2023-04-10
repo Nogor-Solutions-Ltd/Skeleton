@@ -26,7 +26,7 @@
         },
         "laravel": {
             "providers": [
-                "NogorSolutionsLTD\\Error\\ServiceProvider"
+                "NogorSolutionsLTD\\Skeleton\\ServiceProvider"
             ]
         }
     },
