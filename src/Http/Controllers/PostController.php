@@ -1,12 +1,12 @@
 <?php
 
-namespace NogorSolutionsLTD\Auth\Http\Controllers;
+namespace NogorSolutionsLTD\Skeleton\Http\Controllers;
 
 class PostController extends Controller
 {
     public function index()
     {
-        return view('auth::posts.index');
+        return view('skeleton::post.index');
     }
 
     public function show()
