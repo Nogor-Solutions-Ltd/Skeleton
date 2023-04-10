@@ -1,6 +1,6 @@
 <?php
 
-namespace NogorSolutionsLTD\Error;
+namespace NogorSolutionsLTD\Skeleton;
 
 use Illuminate\Support\Facades\File;
 
@@ -16,6 +16,6 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'auth');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'skeleton');
     }
 }
