@@ -11,11 +11,11 @@ class PostController extends Controller
 
     public function show()
     {
-        # code..
+        # code...
     }
 
     public function store()
     {
-        # code..
+        # code...
     }
 }
